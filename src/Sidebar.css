@@ -53,6 +53,7 @@
   color: gray;
   font-size: 13px;
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .sidebar__statNumber {
@@ -101,6 +102,6 @@
 }
 
 .sidebar__hash {
-  margin-right: 10px;
+  margin-right: 7px;
   margin-left: 5px;
 }

@@ -8,7 +8,7 @@ function Sidebar() {
   const user = useSelector(selectUser);
   const recentItem = (topic) => (
     <div className="sidebar__recentItem">
-      <span className="sidebar__hash">#</span>
+      <span className="sidebar__hash"># </span>
       <p>{topic}</p>
     </div>
   );
@@ -45,6 +45,7 @@ function Sidebar() {
         {recentItem("programming")}
         {recentItem("software development")}
         {recentItem("graphic design")}
+        <p>Groups</p>
       </div>
     </div>
   );
