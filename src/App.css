@@ -13,11 +13,19 @@
   margin-right: 20px;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 700px) {
   .header__search {
     display: none;
     transition: all 0.5s ease;
   }
+
+  .headerOption__icon {
+    height: 29px !important;
+    width: 29px !important;
+  }
+}
+
+@media screen and (max-width: 950px) {
   .header__right {
     justify-content: space-evenly;
     width: 100%;
@@ -34,9 +42,6 @@
 @media screen and (max-width: 1000px) {
   .headerOption__icon {
     margin-top: 10px;
-    object-fit: contain;
-    height: 24px !important;
-    width: 24px !important;
   }
 
   .search__icon {
