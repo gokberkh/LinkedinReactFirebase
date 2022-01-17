@@ -1,4 +1,4 @@
-# Linkedin 
+# Linkedin React
 
 [![image](https://i.hizliresim.com/1kgvaqv.png)](https://hizliresim.com/1kgvaqv)
 
