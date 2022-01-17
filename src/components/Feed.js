@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from "react";
-import "./Feed.css";
+import "../styles/Feed.css";
 import CreateIcon from "@material-ui/icons/Create";
-import InputOption from "./InputOption.js";
+import InputOption from "../components/InputOption";
 import ImageIcon from "@material-ui/icons/Image";
 import SubscriptionsIcon from "@material-ui/icons/Subscriptions";
 import EventNoteIcon from "@material-ui/icons/EventNote";
 import CalendarViewDayIcon from "@material-ui/icons/CalendarViewDay";
-import Post from "./Post";
-import { db } from "./firebaseConfig";
+import Post from "../components/Post";
+import { db } from "../firebaseConfig";
 import firebase from "firebase/compat/app";
 import { useSelector } from "react-redux";
-import { selectUser } from "./features/userSlice";
+import { selectUser } from "../features/userSlice";
 import FlipMove from "react-flip-move";
 
 export default function Feed() {

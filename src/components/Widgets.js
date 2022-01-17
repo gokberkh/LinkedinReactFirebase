@@ -1,7 +1,7 @@
 import React from "react";
 import InfoIcon from "@material-ui/icons/Info";
 import FiberManualRecordIcon from "@material-ui/icons/FiberManualRecord";
-import "./Widgets.css";
+import "../styles/Widgets.css";
 
 function Widgets() {
   const newsArticle = (heading, subtitle) => (
@@ -23,11 +23,11 @@ function Widgets() {
         <InfoIcon />
       </div>
       {newsArticle(
-        "Coronavirus Cases",
+        "Coronavirus 2022",
         "The death toll is on the rise - 10K readers"
       )}
       {newsArticle(
-        "The Empire Strikes Back",
+        "Star wars ",
         "Star Wars movie cancelled by the people - 4K readers"
       )}
       {newsArticle(

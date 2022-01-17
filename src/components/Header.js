@@ -9,9 +9,9 @@ import AppsIcon from "@material-ui/icons/Apps";
 import LanguageIcon from "@material-ui/icons/Language";
 import HeaderOption from "./HeaderOption.js";
 import { useDispatch } from "react-redux";
-import { auth } from "./firebaseConfig";
-import { logout } from "./features/userSlice";
-import "./Header.css";
+import { auth } from "../firebaseConfig";
+import { logout } from "../features/userSlice";
+import "../styles/Header.css";
 
 function Header() {
   const dispatch = useDispatch();

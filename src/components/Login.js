@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { login } from "./features/userSlice.js";
-import { auth } from "./firebaseConfig";
-import "./Login.css";
+import { login } from "../features/userSlice.js";
+import { auth } from "../firebaseConfig";
+import "../styles/Login.css";
 
 function Login() {
   const [email, setEmail] = useState("");

@@ -1,5 +1,5 @@
 import React from "react";
-import "./HeaderOption.css";
+import "../styles/HeaderOption.css";
 import { Avatar, Badge } from "@material-ui/core";
 
 export default function HeaderOption({
@@ -13,7 +13,7 @@ export default function HeaderOption({
     <div onClick={onClick} className="headerOption">
       {Icon && (
         <Badge badgeContent={badgeContent} overlap="circular" color="secondary">
-          <Icon className="headerOption__icon"  />
+          <Icon className="headerOption__icon" />
         </Badge>
       )}
       {avatar && <Avatar className="headerOption__icon" src={avatar} />}
