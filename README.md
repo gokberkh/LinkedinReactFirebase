@@ -4,7 +4,7 @@
 ### Functionality
 - Login (firebase authentication)
 - Add post (firebase add data)
-- Get posts (firebase select data)
+- Get posts (firebase select all data)
 
 <hr/>
 
